@@ -5,13 +5,13 @@ A collection of automation scripts for reconnaissance.
 This repository contains a set of automation scripts that are designed to enumerate subdomains. Each script focuses on a specific subdomain enumeration techniques and automates it to save time and effort. :shipit:
 
 ## Installation
-1.Clone the repository
+1.Clone the repository <br>
 `git clone https://github.com/maverick0o0/Recon-Bash-Functions-Linux.git`<br>
-2.go to Recon-Bash-Functions-Linux
+2.go to Recon-Bash-Functions-Linux <br>
 `cd Recon-Bash-Functions-Linux`<br>
 3.Open All-In-One.sh and add your repository path to path variable.<br>
 4.add the following line in .bashrc<br>
-`source /path/to/Recon-Bash-Functions-Linux/All-In-One.sh`
+`source /path/to/Recon-Bash-Functions-Linux/All-In-One.sh` <br>
 ### Techniques
 **1.WaybackUrls**
 - [Gau](https://github.com/lc/gau)
