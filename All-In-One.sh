@@ -1,8 +1,10 @@
-source line_count.sh
-source welcome.sh
-source print_color.sh
-source find_subdomains_by_waybackurls.sh
-source find_subdomains_by_tools.sh
-source find_subdomains_by_providers.sh
-source find_subdomains_by_crawlers.sh
-source find_subdomains_by_certificate.sh
+path="/your/path/to/Recon-Bash-Functions-Linux"
+
+source "${path}/line_count.sh"
+source "${path}/welcome.sh"
+source "${path}/print_color.sh"
+source "${path}/find_subdomains_by_waybackurls.sh"
+source "${path}/find_subdomains_by_tools.sh"
+source "${path}/find_subdomains_by_providers.sh"
+source "${path}/find_subdomains_by_crawlers.sh"
+source "${path}/find_subdomains_by_certificate.sh"
