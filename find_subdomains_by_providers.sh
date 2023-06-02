@@ -20,7 +20,7 @@ find_subdomains_by_providers(){
     
     # Using chaos-client
     print_color 34 "Running chaos..."
-    chaos -d "$domain" -o "chaos-provider-$domain.txt" & 
+    chaos -d "$domain" > "chaos-provider-$domain.txt" & 
     
     # Using sourceGpraph
     q=$(echo $domain | sed -e 's/\./\\\./g')

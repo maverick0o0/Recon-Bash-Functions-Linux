@@ -13,20 +13,20 @@ This repository contains a set of automation scripts that are designed to enumer
 4.add the following line in .bashrc<br>
 `source /path/to/Recon-Bash-Functions-Linux/All-In-One.sh` <br>
 ### Techniques
-**1.WaybackUrls**
-- [Gau](https://github.com/lc/gau)
-- [Waybackurls](https://github.com/tomnomnom/waybackurls)
+**1.WaybackUrls**<br>
+- [Gau](https://github.com/lc/gau)<br>
+- [Waybackurls](https://github.com/tomnomnom/waybackurls)<br>
 - [Waymore](https://github.com/xnl-h4ck3r/waymore)<br>
-**2.Certificate search**
-- crt.sh (database)
-- tls.bufferover.run
+**2.Certificate search**<br>
+- crt.sh (database)<br>
+- tls.bufferover.run<br>
 **3.Providers**<br>
-- [AbuseIp](https://www.abuseipdb.com/)
-- [Chaos-client](https://github.com/projectdiscovery/chaos-client)
-- [Sourcegraph](https://sourcegraph.com/search)
+- [AbuseIp](https://www.abuseipdb.com/)<br>
+- [Chaos-client](https://github.com/projectdiscovery/chaos-client)<br>
+- [Sourcegraph](https://sourcegraph.com/search)<br>
 **4.Crawling site source**<br>
-- [Gospider](https://github.com/jaeles-project/gospider)
-- [Katana](https://github.com/projectdiscovery/katana)
+- [Gospider](https://github.com/jaeles-project/gospider)<br>
+- [Katana](https://github.com/projectdiscovery/katana)<br>
 
 
 Contributing
