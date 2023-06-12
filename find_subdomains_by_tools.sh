@@ -24,13 +24,14 @@ find_subdomains_by_tools() {
   # Wait for both tasks to complete
   wait
 
-  # Remove tmp files.
-  rm "amass-$domain.txt" "subfinder-$domain.txt"
-
-
+ 
   # Execute the sort command
   sort -u "subfinder-$domain.txt" "amass-$domain.txt" -o "tools-subs-$domain.txt"
   echo "Find subdomains by tools for $domain Done." | notify 
   echo "Subdomain discovery completed. Results saved in tools-subs-$domain.txt"
+  
+  # Remove tmp files.
+  rm "amass-$domain.txt" "subfinder-$domain.txt"
+  
 }
 
